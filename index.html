@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+        <script src="https://kit.fontawesome.com/5b7f6241f6.js" crossorigin="anonymous"></script>
+        <title>Web Agency</title>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header class="header">
+            <a href=""><img src="./img/logo.png" alt="" class="logo" /></a>
+
+            <nav>
+                <ul class="header__nav">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#nos-services">Services</a></li>
+                    <li><a href="#nos-projets">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- NAVBAR BURGER-->
+            <div id="mySidenav" class="sidenav">
+                <a id="closeBtn" href="#" class="close">&times;</a>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <a href="#" id="openBtn">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </a>
+        </header>
+
+        <main class="container" id="home">
+            <!--SLIDER-->
+
+            <div class="slider">
+                <img class="slider__bg-1" src="./img/bg1.jpg" alt="Petite fille mains pleine de peinture" />
+                <img class="slider__bg-2" src="./img/bg2.jpg" alt="Petit garçon qui utilise un mégaphone" />
+
+                <div class="slider__button">
+                    <button id="btnLeft">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button id="btnRight">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                <div class="slider__text">
+                    <h1><span class="blue">WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS!</h1>
+                    <p>Vous avez un projet? la Webagency vous aide à le réaliser.</p>
+                    <button class="slider__text__button"><a href="#nos-services">Plus d'infos</a></button>
+                </div>
+            </div>
+
+            <!--SECTION NOS-SERVICES-->
+
+            <section class="nos-services" id="nos-services">
+                <div class="section-title">
+                    <h2>NOS SERVICES</h2>
+                    <div class="separator">
+                        <i class="fa-solid fa-circle dot"></i>
+                    </div>
+                    <p>
+                        De taille humaine, notre agence vous accompagne du début à la fin de votre projet. Nos experts
+                        vous aident à optimiser l'expérience utilisateur et tirer le meilleur potentiel de chaque
+                        support, du web au mobile.
+                    </p>
+                </div>
+
+                <div class="nos-services__content">
+                    <img src="./img/main-feature.png" alt="Macintosh" />
+
+                    <div class="nos-services__content__icons">
+                        <div class="icon-wrapper">
+                            <div class="spinner">
+                                <i class="fa-solid fa-circle dot"></i>
+                            </div>
+                            <i class="fa-solid fa-chart-line icon"></i>
+                        </div>
+
+                        <div class="icon-wrapper">
+                            <div class="spinner">
+                                <i class="fa-solid fa-circle dot"></i>
+                            </div>
+                            <i class="fa-solid fa-cubes icon"></i>
+                        </div>
+
+                        <div class="icon-wrapper">
+                            <div class="spinner">
+                                <i class="fa-solid fa-circle dot"></i>
+                            </div>
+                            <i class="fa-solid fa-chart-pie icon"></i>
+                        </div>
+                    </div>
+
+                    <ul class="nos-services__content__description">
+                        <li>
+                            <h3>UX design</h3>
+                            <p>
+                                Une équipe passionée qui place l'utilisateur final au centre de sa démarche pour une
+                                technologie plus humaine.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>UI design</h3>
+                            <p>
+                                Une interface optimisée ui permet à votre site web de rester à la page au gré des
+                                évolutions techniques et des nouveaux usages.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>SEO</h3>
+                            <p>
+                                Nos experts en référencement vous permettent d'améliorer le positionnement de votre site
+                                afin d'augmenter votre conversion.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SECTION NOS-PROJETS-->
+
+            <section class="nos-projets" id="nos-projets">
+                <div class="section-title">
+                    <h2>NOS PROJETS</h2>
+                    <div class="separator">
+                        <i class="fa-solid fa-circle dot"></i>
+                    </div>
+                    <p>
+                        De taille humaine, notre agence vous accompagne du début à la fin de votre projet. Nos experts
+                        vous aident à optimiser l'expérience utilisateur et tirer le meilleur potentiel de chaque
+                        support, du web au mobile.
+                    </p>
+                </div>
+
+                <nav>
+                    <ul class="nos-projets__navbar">
+                        <li><a href="#">Tous</a></li>
+                        <li><a href="#">Créations</a></li>
+                        <li><a href="#">Corporate</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                    </ul>
+                </nav>
+
+                <ul class="nos-projets__portfolio">
+                    <li>
+                        <figure>
+                            <a href="">
+                                <img src="./img/img1.png" alt="" />
+                            </a>
+                            <figcaption><a href="#">lorem-ipsum.com</a></figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="">
+                                <img src="./img/img2.png" alt="" />
+                            </a>
+                            <figcaption><a href="#">lorem-ipsum.com</a></figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="">
+                                <img src="./img/img3.png" alt="" />
+                            </a>
+                            <figcaption><a href="#">lorem-ipsum.com</a></figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="">
+                                <img src="./img/img4.png" alt="" />
+                            </a>
+                            <figcaption><a href="#">lorem-ipsum.com</a></figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="">
+                                <img src="./img/img5.png" alt="" />
+                            </a>
+                            <figcaption><a href="#">lorem-ipsum.com</a></figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="">
+                                <img src="./img/img6.png" alt="" />
+                            </a>
+                            <figcaption><a href="#">lorem-ipsum.com</a></figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="">
+                                <img src="./img/img7.png" alt="" />
+                            </a>
+                            <figcaption><a href="#">lorem-ipsum.com</a></figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="">
+                                <img src="./img/img8.png" alt="" />
+                            </a>
+                            <figcaption><a href="#">lorem-ipsum.com</a></figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <!--SECTION CONTACT-->
+
+            <section class="contact" id="contact">
+                <div class="section-title">
+                    <h2>CONTACTEZ NOUS</h2>
+                    <div class="separator">
+                        <i class="fa-solid fa-circle dot"></i>
+                    </div>
+                </div>
+
+                <div class="contact__map">
+                    <iframe
+                        width="100%"
+                        height="600"
+                        frameborder="0"
+                        scrolling="no"
+                        marginheight="0"
+                        marginwidth="0"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=25%20rue%20d'hauteville,%2075010%20PARIS+(WEB%20AGENCY)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                        ><a href="https://www.maps.ie/distance-area-calculator.html"
+                            >measure acres/hectares on map</a
+                        ></iframe
+                    >
+
+                    <div class="contact__map__wrapper">
+                        <form class="contact__map__wrapper__form" action="#" method="post">
+                            <h3>Contact Info</h3>
+                            <h4>WebAgency SAS</h4>
+                            <p>
+                                25 rue d'Hauteville 75010 PARIS <br />
+                                Tel +33102030405
+                            </p>
+
+                            <input type="text" placeholder="Nom" />
+                            <input type="email" placeholder="Email" />
+                            <input type="text" placeholder="Sujet" />
+                            <textarea placeholder="Votre message ..." id="" cols="30" rows="8"></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER-->
+
+        <section class="footer">
+            <h3 class="blue">Web Agency</h3>
+
+            <div class="footer__social">
+                <p>FOLLOW US</p>
+                <div>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__call-us">
+                <p>CALL US</p>
+                +33102030405
+            </div>
+        </section>
+        <script src="./sidenav.js"></script>
+        <script src="./slider.js"></script>
+    </body>
+</html>
