@@ -688,6 +688,10 @@ input {
     .nos-projets__portfolio {
         height: 40vh;
     }
+
+    .nos-projets__navbar {
+        margin: 15px 5px;
+    }
 }
 
 /* CONTACT */
